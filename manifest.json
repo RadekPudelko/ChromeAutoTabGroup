@@ -1,0 +1,26 @@
+{
+  "name": "Auto Tab Group",
+  "description": "Uses the chrome.tab API to automatically place new tabs in the same group as the opener tab.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "homepage_url": "https://github.com/RadekPudelko/ChromeAutoTabGroup",
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "48": "images/dab48.png",
+    "96": "images/dab96.png"
+  },
+
+  "action": {
+      "default_icon": {
+          "48": "images/dab48.png",
+          "96": "images/dab96.png"
+      }
+  }
+}
